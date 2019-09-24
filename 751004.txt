@@ -1,0 +1,7 @@
+a a a POIT q q 2
+c c c POIT c c 2
+q q q POIT q q 2
+v v v POIT qwe qwe 2
+r r r POIT w w 2
+r r r POIT w wr 2
+c m d ITP w w 32
