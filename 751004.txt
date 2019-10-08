@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 126112 a a a POIT q q 2
 128098 c c c POIT c c 2
 142000 q q q POIT q q 2
@@ -6,3 +7,12 @@
 142993 r r r POIT w wr 2
 128139 c m d ITP w w 32
 126217 a m d ITP w w 2
+=======
+a a a POIT q q 2
+c c c POIT c c 2
+q q q POIT q q 2
+v v v POIT qwe qwe 2
+r r r POIT w w 2
+r r r POIT w wr 2
+c m d ITP w w 32
+>>>>>>> c2d0b8c7e0f680a11e491c50ffcb1028645b66e0
