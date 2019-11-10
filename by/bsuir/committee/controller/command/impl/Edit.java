@@ -1,14 +1,15 @@
 package by.bsuir.committee.controller.command.impl;
 
 import by.bsuir.committee.controller.command.Command;
-import by.bsuir.committee.entity.committee;
+import by.bsuir.committee.entity.Committee;
 import by.bsuir.committee.service.ServiceFactory;
 import by.bsuir.committee.service.userService;
+import static by.bsuir.committee.Constants.*;
 
 public class Edit implements Command{
 
 	@Override
-	public String execute(String request, committee committee) {
+	public String execute(String request, Committee committee) {
 		int enrolleeID = 0;
 		String response = "";
 		
@@ -24,10 +25,10 @@ public class Edit implements Command{
 			enrolleeID = Integer.parseInt(data[1]);
 			
 			if(!usertService.edit(enrolleeID, committee))
-				response = "No such enrollee.";
+				response = NO_ENROLLE;
 		}
 		else {
-			response  = "Incorrect number of parameters.";
+			response  = INCORRECT_PARAMS;
 		}
 
 		return response;
